@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2>COMPLEX FORM</h2>
+<body>
+    <form>
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <label for="name">NAME</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <br>
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <label for="phone">PHONE</label>
+            <input type="tel" id="phone" name="phone">
+            <br>
+            <br>
+            <label for="dob">DATE OF BIRTH</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <br>
+            <p>GENDER</p>
+            <label for="gender1">MALE</label>
+            <input type="radio" name="gender" id="gender1">
+
+            <label for="gender2">FEMALE</label>
+            <input type="radio" name="gender" id="gender2">
+            <br>
+            <br>
+
+            <label for="country">COUNTRY</label>
+            <select name="country" id="country">
+                <option value="india">INDIA</option>
+                <option value="us">UNITED STATES</option>
+            </select>
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>ADDRESS</legend>
+            <label for="street">STREET</label>
+            <input type="text" id="street" name="street">
+            <br>
+            <br>
+            
+            <label for="city">CITY</label>
+            <input type="text" id="city" name="city">
+            <br>
+            <br>
+           
+            <label for="state">STATE</label>
+            <input type="text" id="state" name="state">
+            <br>
+            <br>
+            <label for="code">ZIP CODE</label>
+            <input type="text" id="code" name="code">
+        </fieldset>
+        <fieldset>
+            <legend>OTHER INFORMATION</legend>
+            <label for="write">COMMENTS</label>
+            <br>
+            <textarea name="write" id="write" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <label for="check">I AGREE TO TERMS AND CONDITIONS</label>
+            <input type="checkbox" name="check" id="check">
+            <br>
+            <br>
+
+            <input type="button" value="SUBMIT">
+        </fieldset>
+
+    </form>
+</body>
+</html>
